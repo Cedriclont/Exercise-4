@@ -1,0 +1,42 @@
+# List
+my_list = [1, "hello", True, 3.14]
+
+# Tuple
+my_tuple = (2, "world", False, 2.718)
+
+# Set
+my_set = {3, "python", True, 4.2}
+
+# Dictionary
+my_dict = {"name": "Cedric", "age": 23, "is_student": False}
+
+# If statement condition
+if len(my_list) > 3:
+    print("True")
+else:
+    print("False")
+
+# Accessing elements and data types
+
+# List
+print(f"List: {my_list[0]} is an {type(my_list[0])}")
+print(f"List: {my_list[1]} is an {type(my_list[1])}")
+print(f"List: {my_list[2]} is an {type(my_list[2])}")
+print(f"List: {my_list[3]} is an {type(my_list[3])}")
+
+# Tuple
+print(f"Tuple: {my_tuple[0]} is an {type(my_tuple[0])}")
+print(f"Tuple: {my_tuple[1]} is an {type(my_tuple[1])}")
+print(f"Tuple: {my_tuple[2]} is an {type(my_tuple[2])}")
+print(f"Tuple: {my_tuple[3]} is an {type(my_tuple[3])}")
+
+# Set
+print(f"Set: {list(my_set)[0]} is an {type(list(my_set)[0])}")
+print(f"Set: {list(my_set)[1]} is an {type(list(my_set)[1])}")
+print(f"Set: {list(my_set)[2]} is an {type(list(my_set)[2])}")
+print(f"Set: {list(my_set)[3]} is an {type(list(my_set)[3])}")
+
+# Dictionary
+print(f"Dictionary: {my_dict['name']} is an {type(my_dict['name'])}")
+print(f"Dictionary: {my_dict['age']} is an {type(my_dict['age'])}")
+print(f"Dictionary: {my_dict['is_student']} is an {type(my_dict['is_student'])}")
